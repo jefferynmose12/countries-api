@@ -3,11 +3,9 @@ import { HiOutlineArrowSmLeft } from 'react-icons/hi';
 import { Link, useParams } from 'react-router-dom';
 
 function Details({mode}) {
-
   const {code} = useParams();
   
   const [country, setCountry] = useState([]);
-
 
   useEffect(() => {
     const getCountry= async () => {

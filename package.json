@@ -7,6 +7,9 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "discord.js": "^13.8.1",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
@@ -45,5 +48,17 @@
     "gh-pages": "^3.2.3",
     "postcss": "^8.4.12",
     "tailwindcss": "^3.0.23"
+  },
+  "description": "This is a country list web app, showing the list of countries by all, \r regions and all countries names.\r It provide function like filtering and also search for countries.\r It gives more information of a particular country when clicked on.\r The web app was built using React.js and tailwind and it is also responsive. Below is a link to the site.\r https://jefferynmose12.github.io/countries-api/",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefferynmose12/countries-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jefferynmose12/countries-api/issues"
   }
 }

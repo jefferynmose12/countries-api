@@ -3,12 +3,8 @@ import { Link } from 'react-router-dom';
 
 function EachDetail({ title, image_url, population, region, capital, mode, code }) {
 
-  // const showDetailsHandler = () => {
-  //   showDetails(code);
-  // }
-
   return (
-    <Link className={ "w-full flex flex-col rotate-0 cursor-pointer text-white bg-gray-700 rounded-bl-md rounded-br-md shadow-md hover:bg-gray-600 hover:scale-105 hover:rotate-3 " + (mode ? ' bg-white text-black hover:bg-gray-100 ' : 'null')} 
+    <Link className={ "w-full flex flex-col rotate-0 cursor-pointer text-white bg-gray-700 rounded-bl-md rounded-br-md shadow-md hover:bg-gray-600 " + (mode ? ' bg-white text-black hover:bg-gray-100 ' : 'null')} 
       to={`/country/${code}`}
     >
       {/* image */}
